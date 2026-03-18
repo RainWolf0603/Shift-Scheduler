@@ -1,0 +1,5 @@
+{
+  "name": "Shift Scheduler",
+  "description": "A simple shift scheduling app with a +/- 2 week calendar view.",
+  "requestFramePermissions": []
+}
