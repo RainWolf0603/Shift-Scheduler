@@ -32,8 +32,8 @@ export default function App() {
   const [selectedDate, setSelectedDate] = useState<Date>(startOfDay(new Date()));
   const [currentMonth, setCurrentMonth] = useState<Date>(startOfMonth(new Date()));
   const [shifts, setShifts] = useState<Shift[]>([]);
-  const [startTime, setStartTime] = useState("09:00");
-  const [endTime, setEndTime] = useState("17:00");
+  const [startTime, setStartTime] = useState("15:00");
+  const [endTime, setEndTime] = useState("21:00");
   const [copied, setCopied] = useState(false);
 
   // Generate full month grid starting on Monday
